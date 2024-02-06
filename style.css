@@ -52,8 +52,12 @@ li {
 a {
   font-weight: 300;
 }
-#user-name {
+#name {
   font-size: 32px;
+}
+#user-name {
+  font-size: 12px;
+  margin: -35px 0px 0px 0px;
 }
 #profile-pic {
   width: 150px;
