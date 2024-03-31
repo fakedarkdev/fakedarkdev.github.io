@@ -183,6 +183,7 @@ a {
   background-color: #555;
 }
 #go-top-btn {
+  display: none;
   position: fixed;
   bottom: -50px;
   right: 20px;
