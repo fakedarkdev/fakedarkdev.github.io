@@ -18,6 +18,7 @@
   color: var(--mainTextColor);
 }
 body {
+  animation: 1s ease-out .2s 1 fade;
   background: radial-gradient(ellipse at bottom, var(--mainBgColor) 0%, var(--mainBgColor-dark) 100%);
 }
 p,
@@ -155,6 +156,16 @@ a {
     transform: translateY(-2000px);
   }
 }
+@keyframes fade {
+  0% {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -255,8 +266,6 @@ a {
   fill: #fff;
 }
 
-/*-----------------------parallax-----------------------*/
-/* credits: https://www.youtube.com/watch?v=aywzn9cf-_U */
 #stars1 {
   width: 1px;
   height: 1px;
