@@ -9,7 +9,7 @@
   --secondaryTextColor: var(--secondaryTextColor-dark);
   --mainLinkColor: var(--mainLinkColor-dark);
   --mainBorderColor: var(--mainBorderColor-dark);
-  --mainBgColor: var(--mainBgColor-dark);
+  --mainBgColor: rgb(0, 15, 25);
 }
 * {
   font-family: "Readex Pro";
@@ -18,7 +18,7 @@
   color: var(--mainTextColor);
 }
 body {
-  background-color: var(--mainBgColor);
+  background: radial-gradient(ellipse at bottom, var(--mainBgColor) 0%, var(--mainBgColor-dark) 100%);
 }
 p,
 span,
