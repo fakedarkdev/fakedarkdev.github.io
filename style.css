@@ -35,7 +35,7 @@ li {
   line-height: 1.9em;
 }
 #container--main {
-  max-width: 700px;
+  max-width: 75%;
   margin: 0 auto;
   padding: 1em;
 }
@@ -127,6 +127,9 @@ a {
   color: rgb(30, 190, 214);
 }
 @media (max-width: 600px) {
+  #container--main {
+    max-width: 90%;
+  }
   .section--page {
     padding-top: 1em;
     padding-bottom: 1em;
