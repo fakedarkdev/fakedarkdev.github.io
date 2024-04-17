@@ -61,6 +61,10 @@ li {
 #bio,
 a {
   font-weight: 300;
+  transition: filter 0.3s ease-in;
+}
+#bio > a:hover {
+  filter: opacity(0.6);
 }
 #name {
   font-size: 32px;
@@ -89,9 +93,11 @@ a {
   color: var(--secondaryTextColor);
   font-size: 0.9em;
   transition: 0.3s;
+  transition: filter 0.3s ease-in;
 }
 #socials--list a:hover {
   font-weight: 100;
+  filter: opacity(0.6);
   color: var(--mainLinkColor);
   font-size: 0.9em;
 }
