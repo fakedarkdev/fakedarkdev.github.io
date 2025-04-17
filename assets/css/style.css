@@ -36,6 +36,9 @@ a {
   color: var(--mainLinkColor);
   font-weight: 500;
 }
+ul{
+  padding-inline-start: 1em;
+}
 li {
   line-height: 1.9em;
 }
