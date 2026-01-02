@@ -81,7 +81,6 @@ a {
   object-fit: cover;
   border-radius: 10%;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-  filter: saturate(0.9);
 }
 #email {
   color: var(--mainTextColor);
