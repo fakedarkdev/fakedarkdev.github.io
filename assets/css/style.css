@@ -77,10 +77,11 @@ a {
   margin: -35px 0px 0px 0px;
 }
 #profile-pic {
-  width: 150px;
-  height: 150px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  filter: saturate(0.9);
 }
 #email {
   color: var(--mainTextColor);
@@ -171,8 +172,8 @@ a {
     flex-direction: column;
   }
   #profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: auto;
   }
   .card--work-history {
     border-left: none;
